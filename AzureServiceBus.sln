@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus", "src\AzureServiceBus.csproj", "{0E6790EF-D347-4EB7-8876-456ED7C1175B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7D5483E9-2C4D-42C7-A01B-522E9192E1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "test\IntegrationTests\IntegrationTests.csproj", "{9C658C27-0839-4A2D-96FC-EB29F8065F81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E6790EF-D347-4EB7-8876-456ED7C1175B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6790EF-D347-4EB7-8876-456ED7C1175B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6790EF-D347-4EB7-8876-456ED7C1175B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6790EF-D347-4EB7-8876-456ED7C1175B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C658C27-0839-4A2D-96FC-EB29F8065F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C658C27-0839-4A2D-96FC-EB29F8065F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C658C27-0839-4A2D-96FC-EB29F8065F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C658C27-0839-4A2D-96FC-EB29F8065F81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C658C27-0839-4A2D-96FC-EB29F8065F81} = {7D5483E9-2C4D-42C7-A01B-522E9192E1C0}
+	EndGlobalSection
+EndGlobal
